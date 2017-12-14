@@ -15,7 +15,7 @@ import { getStatusBarHeight } from 'react-native-status-bar-height';
 
 // iPhoneX: 44pt
 // iOS device: 20pt
-// Android: 0
+// Android: StatusBar.currentHeight
 console.log(getStatusBarHeight());
 ```
 
